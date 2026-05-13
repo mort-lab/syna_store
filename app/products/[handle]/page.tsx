@@ -2,7 +2,6 @@
 
 import { useParams } from "next/navigation";
 import { useState } from "react";
-import Link from "next/link";
 import { getProductByHandle, getRelatedProducts } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
 import { useCart } from "@/components/CartContext";

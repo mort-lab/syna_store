@@ -35,7 +35,6 @@ export function CartDrawer() {
                     key={`${item.product.handle}-${item.size}`}
                     className="flex gap-3 border-b border-neutral-200 dark:border-neutral-700 pb-4"
                   >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <Link
                       href={`/products/${item.product.handle}`}
                       onClick={close}
